@@ -9,7 +9,7 @@ pipeline {
         }
       }
       steps {
-          sh 'mvn clean install -B'
+          sh 'mvn clean install -B -X'
       }
     }
     stage('Build container') {

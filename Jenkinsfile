@@ -55,8 +55,7 @@ pipeline {
          }*/
 
 
-
-
+    }
         post {
             failure {
                 echo '=== Inside the post failure ==='
@@ -89,4 +88,4 @@ pipeline {
 
     }
 
-}
+

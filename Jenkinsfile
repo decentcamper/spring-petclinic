@@ -17,9 +17,9 @@ pipeline {
         //Build docker image named docker-app
         stage ('Build & Deploy') {
             steps{
-                sh "sed -i 's/docker.artifactory/${ARTDOCKER_REGISTRY}/' Dockerfile"
+                sh "sed -i 's/docker.artifactory/vivek796-docker.jfrog.io/' Dockerfile"
                 script {
-                    tagDockerApp = "${ARTDOCKER_REGISTRY}/petclinic-jenkins-jfrog:${env.BUILD_NUMBER}"
+                    tagDockerApp = "vivek796-docker.jfrog.io/petclinic-jenkins-jfrog:${env.BUILD_NUMBER}"
                     println "Docker App Build"
                     docker.build(tagDockerApp)
                     println "Docker push" + tagDockerApp + " : " + REPO

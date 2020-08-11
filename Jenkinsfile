@@ -28,8 +28,7 @@ pipeline {
             steps {
                 echo '=== Building Petclinic Docker Image ==='
                 script {
-                    app = docker.build("vivek796/petclinic-jenkins-jfrog)
-
+                    app = docker.build("vivek796/petclinic-jenkins-jfrog")
                 }
             }
         }

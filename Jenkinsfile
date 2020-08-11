@@ -56,16 +56,17 @@ pipeline {
                     sh("docker rmi -f vivek796/petclinic-jenkins-jfrog:$SHORT_COMMIT || :")
                 }
             }
-            post {
-                always {
-                    emailext body: 'A Test EMail',
-                            recipientProviders: [[$class: 'DevelopersRecipientProvider'],
-                                                 [$class: 'RequesterRecipientProvider']],
-                            subject: 'Test'
-                }
-            }
+
 
         }
+    post {
+        always {
+            emailext body: 'A Test EMail',
+                    recipientProviders: [[$class: 'DevelopersRecipientProvider'],
+                                         [$class: 'RequesterRecipientProvider']],
+                    subject: 'Test'
+        }
+    }
 
     /*}
     catch (e) {

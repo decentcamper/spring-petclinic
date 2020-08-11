@@ -3,12 +3,12 @@ pipeline {
     triggers {
         pollSCM "* * * * *"
     }
-    try {
+  /*  try {
         def to = emailextrecipients([
                 [$class: 'CulpritsRecipientProvider'],
                 [$class: 'DevelopersRecipientProvider'],
                 [$class: 'RequesterRecipientProvider']
-        ])
+        ])*/
         stages {
             // config
             stage('Build Application') {
@@ -67,7 +67,7 @@ pipeline {
 
         }
 
-    }
+    /*}
     catch (e) {
         // mark build as failed
         currentBuild.result = "FAILURE";
@@ -84,5 +84,5 @@ pipeline {
 
         // mark current build as a failure and throw the error
         throw e;
-    }
+    }*/
 }

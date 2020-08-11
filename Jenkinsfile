@@ -18,13 +18,15 @@ pipeline {
         stage ('Build & Deploy') {
             steps{
                 sh "sed -i 's/docker.artifactory/${ARTDOCKER_REGISTRY}/' Dockerfile"
-                tagDockerApp = "${ARTDOCKER_REGISTRY}/petclinic-jenkins-jfrog:${env.BUILD_NUMBER}"
-                println "Docker App Build"
-                docker.build(tagDockerApp)
-                println "Docker push" + tagDockerApp + " : " + REPO
-                buildInfo = rtDocker.push(tagDockerApp, REPO, buildInfo)
-                println "Docker Buildinfo"
-                rtServer.publishBuildInfo buildInfo
+                script {
+                    tagDockerApp = "${ARTDOCKER_REGISTRY}/petclinic-jenkins-jfrog:${env.BUILD_NUMBER}"
+                    println "Docker App Build"
+                    docker.build(tagDockerApp)
+                    println "Docker push" + tagDockerApp + " : " + REPO
+                    buildInfo = rtDocker.push(tagDockerApp, REPO, buildInfo)
+                    println "Docker Buildinfo"
+                    rtServer.publishBuildInfo buildInfo
+                }
             }
         }
 

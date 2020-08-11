@@ -56,36 +56,43 @@ pipeline {
 
 
     }
-        post {
-            failure {
-                echo '=== Inside the post failure ==='
 
-                def to = emailextrecipients([
-                        [$class: 'CulpritsRecipientProvider'],
-                        [$class: 'DevelopersRecipientProvider'],
-                        [$class: 'RequesterRecipientProvider']
-                ])
+    post {
+        changed {
+            script {
                 currentBuild.result = "FAILURE";
                 // set variables
                 def subject = "${env.JOB_NAME} - Build #${env.BUILD_NUMBER} ${currentBuild.result}"
                 def content = '${JELLY_SCRIPT,template="html"}'
 
-                // send email
-                if (to != null && !to.isEmpty()) {
-                    emailext(body: content, mimeType: 'text/html',
-                            replyTo: '$DEFAULT_REPLYTO', subject: subject,
-                            to: to, attachLog: true)
+                if (currentBuild.currentResult == 'FAILURE') { // Other values: SUCCESS, UNSTABLE
+                    // Send an email only if the build status has changed from green/unstable to red
+                    emailext subject: subject ,
+                            body: content,
+                            recipientProviders: [
+                                    [$class: 'CulpritsRecipientProvider'],
+                                    [$class: 'DevelopersRecipientProvider'],
+                                    [$class: 'RequesterRecipientProvider']
+                            ],
+                            replyTo: '$DEFAULT_REPLYTO',
+                            to: '$DEFAULT_RECIPIENTS'
+                } else if (currentBuild.currentResult == 'SUCCESS') { // Other values: SUCCESS, UNSTABLE
+                    // Send an email only if the build status has changed from green/unstable to red
+                    emailext subject: subject,
+                            body: content,
+                            recipientProviders: [
+                                    [$class: 'CulpritsRecipientProvider'],
+                                    [$class: 'DevelopersRecipientProvider'],
+                                    [$class: 'RequesterRecipientProvider']
+                            ],
+                            replyTo: '$DEFAULT_REPLYTO',
+                            to: '$DEFAULT_RECIPIENTS'
                 }
-
-            }
-            always {
-                emailext body: 'A Test EMail',
-                        recipientProviders: [[$class: 'DevelopersRecipientProvider'],
-                                             [$class: 'RequesterRecipientProvider']],
-                        subject: 'Test'
             }
         }
-
     }
+
+
+}
 
 

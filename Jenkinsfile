@@ -16,7 +16,7 @@ pipeline {
         }
         //Build docker image named docker-app
         stage ('Build & Deploy') {
-            dir ('petclinic-jenkins-jfrog') {
+            steps{
                 sh "sed -i 's/docker.artifactory/${ARTDOCKER_REGISTRY}/' Dockerfile"
                 tagDockerApp = "${ARTDOCKER_REGISTRY}/petclinic-jenkins-jfrog:${env.BUILD_NUMBER}"
                 println "Docker App Build"

@@ -3,21 +3,22 @@ pipeline {
     triggers {
         pollSCM "* * * * *"
     }
-  /*  try {
+    try {
         def to = emailextrecipients([
                 [$class: 'CulpritsRecipientProvider'],
                 [$class: 'DevelopersRecipientProvider'],
                 [$class: 'RequesterRecipientProvider']
-        ])*/
+        ])
         stages {
             // config
             stage('Build Application') {
                 steps {
                     echo '=== Building Petclinic Application ==='
                     sh 'mvn -B -DskipTests clean package'
+                    sh 'exit 1'
                 }
             }
-            stage('Test Application') {
+           /* stage('Test Application') {
                 steps {
                     echo '=== Testing Petclinic Application ==='
                     sh 'mvn test'
@@ -55,7 +56,7 @@ pipeline {
                     sh("docker rmi -f vivek796/petclinic-jenkins-jfrog:latest || :")
                     sh("docker rmi -f vivek796/petclinic-jenkins-jfrog:$SHORT_COMMIT || :")
                 }
-            }
+            }*/
 
 
         }
@@ -68,7 +69,7 @@ pipeline {
         }
     }
 
-    /*}
+    }
     catch (e) {
         // mark build as failed
         currentBuild.result = "FAILURE";
@@ -85,5 +86,5 @@ pipeline {
 
         // mark current build as a failure and throw the error
         throw e;
-    }*/
+    }
 }

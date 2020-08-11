@@ -3,11 +3,161 @@
   <component name="ChangeListManager">
     <list default="true" id="e4f7e2df-703a-4d22-8faf-f8a164da2a94" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Install Maven and JDK 8 on AWS Linux.md" beforeDir="false" afterPath="$PROJECT_DIR$/Install Maven and JDK 8 on AWS Linux.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-petclinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-petclinic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.wro4j/buildContext.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-suppressions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/build-info.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-mysql.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/h2/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/h2/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/hsqldb/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/hsqldb/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/mysql/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/mysql/petclinic_db_setup_mysql.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/mysql/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/mysql/user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/git.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/messages_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/css/petclinic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/fonts/montserrat-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/fonts/montserrat-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/fonts/montserrat-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/fonts/montserrat-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/fonts/varela_round-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/fonts/varela_round-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/fonts/varela_round-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/fonts/varela_round-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/images/pets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/images/platform-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/images/spring-logo-dataflow-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/images/spring-logo-dataflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/resources/images/spring-pivotal-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/inputField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/selectField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/owners/createOrUpdateOwnerForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/owners/findOwners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/owners/ownerDetails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/owners/ownersList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/pets/createOrUpdatePetForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/pets/createOrUpdateVisitForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vets/vetList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.model/BaseEntity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.model/BaseEntity.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.model/NamedEntity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.model/NamedEntity.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.model/Person.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.model/Person.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.model/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.model/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/Owner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/Owner.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/OwnerController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/OwnerController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/Pet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/Pet.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/PetController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/PetController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/PetType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/PetType.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/PetTypeFormatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/PetTypeFormatter.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/PetValidator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/PetValidator.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/VisitController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/VisitController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.owner/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.system/CacheConfiguration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.system/CacheConfiguration.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.system/CrashController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.system/CrashController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.system/WelcomeController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.system/WelcomeController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.system/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.system/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/Specialty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/Specialty.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/Vet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/Vet.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/VetController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/VetController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/Vets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/Vets.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.vet/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.visit/Visit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.visit/Visit.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.visit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic.visit/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic/PetClinicApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic/PetClinicApplication.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.springframework.samples.petclinic/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-07-30T11-28-44_618.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.PetclinicIntegrationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.model.ValidatorTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.OwnerControllerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.PetControllerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.PetTypeFormatterTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.owner.VisitControllerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.service.ClinicServiceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.system.CrashControllerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.vet.VetControllerTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.springframework.samples.petclinic.vet.VetTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.PetclinicIntegrationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.model.ValidatorTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.owner.OwnerControllerTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.owner.PetControllerTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.owner.PetTypeFormatterTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.owner.VisitControllerTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.service.ClinicServiceTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.system.CrashControllerTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.vet.VetControllerTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.springframework.samples.petclinic.vet.VetTests.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +169,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="install_jenkins.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terraform/install_jenkins.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="install_kubectl_hal.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terraform/install_kubectl_hal.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="button.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/push-to-pws/button.yml">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="docker.txt" pinned="false" current-in-tab="false">
@@ -49,15 +198,28 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="main.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terraform/main.tf">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="mvnw.cmd" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvnw.cmd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2038" />
+            <state relative-caret-position="-608" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.m2/settings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -70,11 +232,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="359" column="17" selection-start-line="359" selection-start-column="17" selection-end-line="359" selection-end-column="17" />
+            <state relative-caret-position="505">
+              <caret line="370" column="23" selection-start-line="370" selection-start-column="23" selection-end-line="370" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -362,16 +524,15 @@
       <workItem from="1596482266981" duration="1094000" />
       <workItem from="1597126102969" duration="1522000" />
       <workItem from="1597129049615" duration="11250000" />
-      <workItem from="1597140852598" duration="958000" />
+      <workItem from="1597140852598" duration="2054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30919000" />
+    <option name="totallyTimeSpent" value="32015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1960" y="23" width="1960" height="1129" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -394,8 +555,8 @@
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3288201" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30464217" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2789364" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5290135" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2789364" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -403,13 +564,13 @@
       <window_info anchor="right" id="Flutter Inspector" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3191268" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -587,21 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE" />
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/full-demo-aws" />
     <entry file="file://$USER_HOME$/Downloads/WhatsApp Image 2019-05-21 at 1.41.26 PM.jpeg">
       <provider selected="true" editor-type-id="images" />
@@ -630,13 +777,6 @@
             <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -727,11 +867,6 @@
     <entry file="file://$PROJECT_DIR$/kubernetes/petclinic.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2038" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvnw">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4104">
@@ -741,8 +876,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="359" column="17" selection-start-line="359" selection-start-column="17" selection-end-line="359" selection-end-column="17" />
+        <state relative-caret-position="505">
+          <caret line="370" column="23" selection-start-line="370" selection-start-column="23" selection-end-line="370" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>

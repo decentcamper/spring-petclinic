@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f7e2df-703a-4d22-8faf-f8a164da2a94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -377,12 +376,12 @@
       <workItem from="1596482266981" duration="1094000" />
       <workItem from="1597126102969" duration="1522000" />
       <workItem from="1597129049615" duration="11250000" />
-      <workItem from="1597140852598" duration="9034000" />
+      <workItem from="1597140852598" duration="9124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38995000" />
+    <option name="totallyTimeSpent" value="39085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="88" y="23" width="1592" height="1027" extended-state="6" />

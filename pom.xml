@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>2.1.0</version>
+  <version>2.3.1.BUILD-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.1.1.RELEASE</version>
+    <version>2.3.1.RELEASE</version>
   </parent>
   <name>petclinic</name>
 
@@ -27,6 +27,8 @@
     <wro4j.version>1.8.0</wro4j.version>
 
     <jacoco.version>0.8.2</jacoco.version>
+    <nohttp-checkstyle.version>0.0.4.RELEASE</nohttp-checkstyle.version>
+    <spring-format.version>0.0.22</spring-format.version>
     <!-- Added by Irshad -->
     <imagetag>${git.commit.id.abbrev}</imagetag>
     <maven.build.timestamp.format>yyyyMMdd-HHmmssSSS</maven.build.timestamp.format>
@@ -54,6 +56,10 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-validation</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -104,6 +110,18 @@
       <version>${webjars-bootstrap.version}</version>
     </dependency>
     <!-- end of webjars -->
+    <!-- Testing -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+
 
     <dependency>
       <groupId>org.springframework.boot</groupId>

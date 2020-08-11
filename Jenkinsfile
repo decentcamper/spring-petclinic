@@ -58,6 +58,40 @@ pipeline {
     }
 
     post {
+        failure {
+            script {
+                //currentBuild.result = "FAILURE";
+                // set variables
+                def subject = "${env.JOB_NAME} - Build #${env.BUILD_NUMBER} ${currentBuild.result}"
+                def content = '${JELLY_SCRIPT,template="html"}'
+
+                if (currentBuild.currentResult == 'FAILURE') { // Other values: SUCCESS, UNSTABLE
+                    // Send an email only if the build status has changed from green/unstable to red
+                    echo '=== Inosde the post FAILURE ==='
+                    emailext subject: subject,
+                            body: content,
+                            recipientProviders: [
+                                    [$class: 'CulpritsRecipientProvider'],
+                                    [$class: 'DevelopersRecipientProvider'],
+                                    [$class: 'RequesterRecipientProvider']
+                            ],
+                            replyTo: '$DEFAULT_REPLYTO',
+                            to: '$DEFAULT_RECIPIENTS'
+                } else if (currentBuild.currentResult == 'SUCCESS') { // Other values: SUCCESS, UNSTABLE
+                    // Send an email only if the build status has changed from green/unstable to red
+                    echo '=== Inosde the post SUCCESS ==='
+                    emailext subject: subject,
+                            body: content,
+                            recipientProviders: [
+                                    [$class: 'CulpritsRecipientProvider'],
+                                    [$class: 'DevelopersRecipientProvider'],
+                                    [$class: 'RequesterRecipientProvider']
+                            ],
+                            replyTo: '$DEFAULT_REPLYTO',
+                            to: '$DEFAULT_RECIPIENTS'
+                }
+            }
+        }
         changed {
             script {
                 //currentBuild.result = "FAILURE";
@@ -68,7 +102,7 @@ pipeline {
                 if (currentBuild.currentResult == 'FAILURE') { // Other values: SUCCESS, UNSTABLE
                     // Send an email only if the build status has changed from green/unstable to red
                     echo '=== Inosde the post FAILURE ==='
-                    emailext subject: subject ,
+                    emailext subject: subject,
                             body: content,
                             recipientProviders: [
                                     [$class: 'CulpritsRecipientProvider'],

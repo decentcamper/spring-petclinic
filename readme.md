@@ -74,7 +74,7 @@ This way, environment variable gets local as value and passes to Dockerfile when
 You can also pass on the Spring Profile as an environment variable at the run time as:
 
 ```
-$ docker run -e "SPRING_PROFILES_ACTIVE=prod" -p 8080:8080 -t vivek796/spring-petclinic
+$ docker run -e "SPRING_PROFILES_ACTIVE=prod" -p 8080:8080 -t vivek796/petclinic-jenkins-jfrog
 ```
 
 ## Petclinic environment variables

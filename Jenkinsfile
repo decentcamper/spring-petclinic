@@ -10,9 +10,24 @@ pipeline {
         stage('Build Application') {
             steps {
                 echo '=== Building Petclinic Application ==='
-                sh 'mvn -B -DskipTests clean package'
+                sh 'mvn -s settings.xml -B -DskipTests clean package'
+            }
+
+        }
+        //Build docker image named docker-app
+        stage ('Build & Deploy') {
+            dir ('petclinic-jenkins-jfrog') {
+                sh "sed -i 's/docker.artifactory/${ARTDOCKER_REGISTRY}/' Dockerfile"
+                tagDockerApp = "${ARTDOCKER_REGISTRY}/petclinic-jenkins-jfrog:${env.BUILD_NUMBER}"
+                println "Docker App Build"
+                docker.build(tagDockerApp)
+                println "Docker push" + tagDockerApp + " : " + REPO
+                buildInfo = rtDocker.push(tagDockerApp, REPO, buildInfo)
+                println "Docker Buildinfo"
+                rtServer.publishBuildInfo buildInfo
             }
         }
+
         /* stage('Test Application') {
              steps {
                  echo '=== Testing Petclinic Application ==='

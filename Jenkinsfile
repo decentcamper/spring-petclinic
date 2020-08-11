@@ -60,13 +60,14 @@ pipeline {
     post {
         changed {
             script {
-                currentBuild.result = "FAILURE";
+                //currentBuild.result = "FAILURE";
                 // set variables
                 def subject = "${env.JOB_NAME} - Build #${env.BUILD_NUMBER} ${currentBuild.result}"
                 def content = '${JELLY_SCRIPT,template="html"}'
 
                 if (currentBuild.currentResult == 'FAILURE') { // Other values: SUCCESS, UNSTABLE
                     // Send an email only if the build status has changed from green/unstable to red
+                    echo '=== Inosde the post FAILURE ==='
                     emailext subject: subject ,
                             body: content,
                             recipientProviders: [
@@ -78,6 +79,7 @@ pipeline {
                             to: '$DEFAULT_RECIPIENTS'
                 } else if (currentBuild.currentResult == 'SUCCESS') { // Other values: SUCCESS, UNSTABLE
                     // Send an email only if the build status has changed from green/unstable to red
+                    echo '=== Inosde the post SUCCESS ==='
                     emailext subject: subject,
                             body: content,
                             recipientProviders: [

@@ -14,7 +14,7 @@ pipeline {
             }
 
         }
-        //Build docker image named docker-app
+        /*//Build docker image named docker-app
         stage ('Build & Deploy') {
             steps{
                 sh "sed -i 's/docker.artifactory/vivek796-docker.jfrog.io/' Dockerfile"
@@ -28,9 +28,9 @@ pipeline {
                     rtServer.publishBuildInfo buildInfo
                 }
             }
-        }
+        }*/
 
-        /* stage('Test Application') {
+         stage('Test Application') {
              steps {
                  echo '=== Testing Petclinic Application ==='
                  sh 'mvn test'
@@ -68,7 +68,7 @@ pipeline {
                  sh("docker rmi -f vivek796/petclinic-jenkins-jfrog:latest || :")
                  sh("docker rmi -f vivek796/petclinic-jenkins-jfrog:$SHORT_COMMIT || :")
              }
-         }*/
+         }
 
 
     }
